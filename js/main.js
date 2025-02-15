@@ -155,11 +155,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Prompt for username and password
     // let username = prompt("Enter your invitation id:");
-    username ="admin";
+    
     
     if (users[username]) {
         // let password = prompt("Enter your invitation code:");
-        password = "admin123";
+       
         if (users[username].password === password) {
             document.body.style.display = "block"; // Show content
 
