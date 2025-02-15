@@ -151,7 +151,8 @@ document.addEventListener("DOMContentLoaded", function () {
         // "admin": { password: "admin123", role: "admin" },
         // "user1": { password: "user123", role: "user" },
         "guest": { password: "guest123", role: "guest" },
-
+        "": { password: "", role: "user" },
+        "hariom": { password: "hari", role: "admin" },
         "shivani": { password: "Shiv@@0", role: "admin" },
         "lokesh": { password: "Lokesh@97", role: "user" },
         "gayatri": { password: "Gayatri@99", role: "admin" },
@@ -160,7 +161,8 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Prompt for username and password
-    let username = prompt("Enter your invitation id:");
+    // let username = prompt("Enter your invitation id:");
+    username = "hariom";
     
     
     if (users[username]) {
