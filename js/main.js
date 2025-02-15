@@ -147,9 +147,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Predefined users with access levels
     const users = {
-        "": { password: "", role: "admin" },
-        "admin": { password: "admin123", role: "admin" },
-        "user1": { password: "user123", role: "user" },
+        // "": { password: "", role: "admin" },
+        // "admin": { password: "admin123", role: "admin" },
+        // "user1": { password: "user123", role: "user" },
         "guest": { password: "guest123", role: "guest" },
 
         "shivani": { password: "Shiv@@0", role: "admin" },
