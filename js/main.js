@@ -150,7 +150,12 @@ document.addEventListener("DOMContentLoaded", function () {
         "": { password: "", role: "admin" },
         "admin": { password: "admin123", role: "admin" },
         "user1": { password: "user123", role: "user" },
-        "guest": { password: "guest123", role: "guest" }
+        "guest": { password: "guest123", role: "guest" },
+
+        "shivani": { password: "Shiv@@0", role: "admin" },
+        "lokesh": { password: "Lokesh@97", role: "user" },
+        "gayatri": { password: "Gayatri@99", role: "admin" },
+        "renuka": { password: "Renuka@96", role: "admin" },
     };
 
     // Prompt for username and password
