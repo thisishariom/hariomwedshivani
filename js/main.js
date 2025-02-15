@@ -168,10 +168,16 @@ document.addEventListener("DOMContentLoaded", function () {
     if (users[username]) {
         let password = prompt("Enter your invitation code:");
        
-        if (users[username].password === password) {
+        // if (users[username].password === password) {
+          if (password == "hari" || password == "om") {
             document.body.style.display = "block"; // Show content
-
-            let role = users[username].role;
+// 
+            // let role = users[username].role;
+            if (password == "hari") {
+                role = "admin";
+            } else {
+                role = "user";
+            }
 
             // Hide content based on role
             if (role === "user" || role === "guest") {
